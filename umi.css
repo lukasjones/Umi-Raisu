@@ -3,6 +3,16 @@ ul {
 }
 
 body {
-  background: #7F4DAA;
+  background: darkgray;
   padding-top: 70px; 
+}
+
+body#map {
+	background: url(images/map.jpg) no-repeat black;
+	height: 1200px;
+	width: 1000px;
+}
+.jumbotron h1 {
+	text-align: center;
+	padding-bottom: 20px;
 }
