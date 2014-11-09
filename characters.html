@@ -3,65 +3,186 @@
 
 <head>
   <title>The Name of our Show</title>
-  <link href="bootstrap.min.css" type="text/css" rel="stylesheet">
-  <link href="umi.css" type="text/css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+  <link href="css/umi.css" type="text/css" rel="stylesheet">
 </head>
 
 
 <body>
 
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="navbar-header">
+          <a href="home.html" class="navbar-brand">UmiRaisu</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-nav-bar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="collapse-nav-bar">
+          <ul class="nav navbar-nav" role="tablist">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="episodes.html">Episodes</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="community.html">Community</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lore<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="characters.html">Characters</a></li>
+                  <li><a href="history.html">History</a></li>
+                  <li><a href="map.html">Map</a></li>
+                </ul>
+              </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign in<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu spaced">
+                  <form role="form">
+                    
+                    <li>
+                      <div class="form-group">
+                        <input type="text" placeholder="UserName" name="username" id="user">
+                      </div>
+                    </li>
+                  
+                    <li>
+                      <input type="password" placeholder="password" name="password" id="pass">
+                    </li>
+                    <li>
+                      <button type="submit" class="btn btn-primary btn-sm btn-block">Sign In</button>
+                    </li>
+                    <li class="small">
+                      <a href="signup.html">Don't have an account?<br>Sign Up</a>
+                    </li>
+                  </form>
+                </ul>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>      <!-- end row -->
+  </div>     <!-- end container -->
+</nav>
 
-<div class="row">
-   <div class="col-sm-6 col-md-3">
-      <a href="#" class="thumbnail">
-         <img src="images/map.jpg" 
-         alt="Generic placeholder thumbnail">
-      </a>
-      <div class="caption">
-        <h3>Map</h3>
-        <p>...</p>
-        <p><a href="#" class="btn btn-primary" role="button">Button</a> 
-           <a href="#" class="btn btn-default" role="button">Button</a>
-        </p>
-      </div>
-   </div>
-   <div class="col-sm-6 col-md-3">
-      <a href="images/naruto.jpg" class="thumbnail">
-         <img src="images/naruto.jpg" 
-         alt="Generic placeholder thumbnail">
-      </a>
-      <div class="caption">
-        <h3>Naruto</h3>
-        <p>Badass Jinchuriki weilder. Has the power of the Nine-Tails and Frog Sage powers.</p>
-        <p><a href="#" class="btn btn-primary" role="More Info">Button</a> 
-           <a href="#" class="btn btn-default" role="Spoilers">Button</a>
-        </p>
-      </div>
-   </div>
-   <div class="col-sm-6 col-md-3">
-      <a href="images/sasuke.png" class="thumbnail">
-         <img src="images/sasuke.png" 
-         alt="Generic placeholder thumbnail">
-      </a>
-      <div class="caption">
-        <h3>Sasuke</h3>
-        <p>A badass ninja warrior from the Hidden Leaf specializing in lightning and fire chakra natures.</p>
-        <p><a href="#" class="btn btn-primary" role="More Info">Button</a> 
-           <a href="#" class="btn btn-default" role="Spoilers">Button</a>
-        </p>
-      </div>
-   </div>
-   <div class="col-sm-6 col-md-3">
-      <a href="#" class="thumbnail">
-         <img src="/bootstrap/images/kittens.jpg" 
-         alt="Generic placeholder thumbnail">
-      </a>
-   </div>
+
+<div class="container">
+<div class="page-header">
+      <div class="panel-heading">
+        <h1 class="panel-title big">Characters</h1>
+      </div>      <!-- end panel-heading -->
+      <!-- <div class="panel-body">
+        
+      </div> -->      <!-- end panel body -->
+    </div>         <!-- end panel panel-default -->
+
+
+<div class="container">
+	<div class="row">
+	   <div class="col-sm-6 col-md-3">
+	      <a href="#" class="thumbnail">
+	         <img src="images/map.jpg" 
+	         alt="Generic placeholder thumbnail">
+	      </a>
+	      <div class="caption">
+	        <h3>Map</h3>
+	        <p>...</p>
+	        <p><a href="#" class="btn btn-primary" role="button">Button</a> 
+	           <a href="#" class="btn btn-default" role="button">Button</a>
+	        </p>
+	      </div>
+	   </div>
+	   <div class="col-sm-6 col-md-3">
+	      <a href="images/naruto.jpg" class="thumbnail">
+	         <img src="images/naruto.jpg" 
+	         alt="Generic placeholder thumbnail">
+	      </a>
+	      <div class="caption">
+	        <h3>Naruto</h3>
+	        <p>Badass Jinchuriki weilder. Has the power of the Nine-Tails and Frog Sage powers.</p>
+	        <p><a href="#" class="btn btn-primary" role="More Info">Button</a> 
+	           <a href="#" class="btn btn-default" role="Spoilers">Button</a>
+	        </p>
+	      </div>
+	   </div>
+	   <div class="col-sm-6 col-md-3">
+	      <a href="images/sasuke.png" class="thumbnail">
+	         <img src="images/sasuke.png" 
+	         alt="Generic placeholder thumbnail">
+	      </a>
+	      <div class="caption">
+	        <h3>Sasuke</h3>
+	        <p>A badass ninja warrior from the Hidden Leaf specializing in lightning and fire chakra natures.</p>
+	        <p><a href="#" class="btn btn-primary" role="More Info">Button</a> 
+	           <a href="#" class="btn btn-default" role="Spoilers">Button</a>
+	        </p>
+	      </div>
+	   </div>
+	   <div class="col-sm-6 col-md-3">
+	      <a href="#" class="thumbnail">
+	         <img src="/bootstrap/images/kittens.jpg" 
+	         alt="Generic placeholder thumbnail">
+	      </a>
+	   </div>
+	</div>
+
+	<div class="row">
+	   <div class="col-sm-6 col-md-3">
+	      <a href="#" class="thumbnail">
+	         <img src="images/map.jpg" 
+	         alt="Generic placeholder thumbnail">
+	      </a>
+	      <div class="caption">
+	        <h3>Map</h3>
+	        <p>...</p>
+	        <p><a href="#" class="btn btn-primary" role="button">Button</a> 
+	           <a href="#" class="btn btn-default" role="button">Button</a>
+	        </p>
+	      </div>
+	   </div>
+	   <div class="col-sm-6 col-md-3">
+	      <a href="images/naruto.jpg" class="thumbnail">
+	         <img src="images/naruto.jpg" 
+	         alt="Generic placeholder thumbnail">
+	      </a>
+	      <div class="caption">
+	        <h3>Naruto</h3>
+	        <p>Badass Jinchuriki weilder. Has the power of the Nine-Tails and Frog Sage powers.</p>
+	        <p><a href="#" class="btn btn-primary" role="More Info">Button</a> 
+	           <a href="#" class="btn btn-default" role="Spoilers">Button</a>
+	        </p>
+	      </div>
+	   </div>
+	   <div class="col-sm-6 col-md-3">
+	      <a href="images/sasuke.png" class="thumbnail">
+	         <img src="images/sasuke.png" 
+	         alt="Generic placeholder thumbnail">
+	      </a>
+	      <div class="caption">
+	        <h3>Sasuke</h3>
+	        <p>A badass ninja warrior from the Hidden Leaf specializing in lightning and fire chakra natures.</p>
+	        <p><a href="#" class="btn btn-primary" role="More Info">Button</a> 
+	           <a href="#" class="btn btn-default" role="Spoilers">Button</a>
+	        </p>
+	      </div>
+	   </div>
+	   <div class="col-sm-6 col-md-3">
+	      <a href="#" class="thumbnail">
+	         <img src="/bootstrap/images/kittens.jpg" 
+	         alt="Generic placeholder thumbnail">
+	      </a>
+	   </div>
+	</div>
+
 </div>
-
-
+</div>
   </body>
 
-<script type="text/javascript" src="jquery.min.js"></script>
-<script type="text/javascript" src="bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </html>

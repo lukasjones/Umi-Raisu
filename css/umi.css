@@ -8,11 +8,19 @@ body {
 }
 
 body#map {
-	background: url(images/map.jpg) no-repeat black;
+	background: url(../images/map.jpg) no-repeat darkblue;
 	height: 1200px;
 	width: 1000px;
 }
 .jumbotron h1 {
 	text-align: center;
 	padding-bottom: 20px;
+}
+
+.big {
+	font-size: 24px;
+}
+
+.spaced li {
+	margin: 5px; 
 }
