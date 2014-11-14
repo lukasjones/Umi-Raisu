@@ -3,24 +3,52 @@ ul {
 }
 
 body {
-  background: darkgray;
-  padding-top: 70px; 
+  background: rgb(206,194,155);
+ /* padding-top: 70px; */
 }
 
-body#map {
-	background: url(../images/map.jpg) no-repeat darkblue;
-	height: 1200px;
-	width: 1000px;
+html#map { 
+  background: url(../images/map.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+ 
+
+  
 }
+
+
 .jumbotron h1 {
 	text-align: center;
 	padding-bottom: 20px;
 }
+
+/*.panel .panel-heading {
+	background: rgb(206,81,69);
+}*/
 
 .big {
 	font-size: 24px;
 }
 
 .spaced li {
-	margin: 5px; 
+	margin-top: 5px; 
 }
+
+.comic .box {
+	height: 100%;
+	width: 100%;
+	border: solid black;
+	padding-bottom: 100%;
+
+}
+
+.comic div.col-sm-4 {
+	padding-bottom: 20px
+}
+
+
+

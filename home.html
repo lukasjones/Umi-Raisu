@@ -11,17 +11,18 @@
 <body>
 
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse" role="navigation">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
         <div class="navbar-header">
-          <a href="home.html" class="navbar-brand">UmiRaisu</a>
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-nav-bar">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-nav-bar">
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span> 
           </button>
+          <a href="home.html" class="navbar-brand">UmiRaisu</a>
         </div>
         <div class="collapse navbar-collapse" id="collapse-nav-bar">
           <ul class="nav navbar-nav" role="tablist">
@@ -44,7 +45,7 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign in<b class="caret"></b>
                 </a>
                 <ul class="dropdown-menu spaced">
-                  <form role="form">
+                  <form class="navbar-form" role="form">
                     
                     <li>
                       <div class="form-group">
@@ -65,11 +66,14 @@
                 </ul>
               </li>
           </ul>
-        </div>
-      </div>
+        </div>        <!-- collapse navbar-collapse -->
+      </div>       <!-- end col-sm-12 -->
     </div>      <!-- end row -->
   </div>     <!-- end container -->
 </nav>
+
+
+
 
 
 
@@ -78,7 +82,7 @@
   <div class="col-sm-12">
     <div class="jumbotron">
       <h1>Umi-Raisu</h1>
-      <button type="button" class="btn btn-primary btn-lg btn-block">Read the first episode for Free!</button>
+      <a href="episodes.html" class="btn btn-primary btn-lg btn-block">Read the first episode for Free!</a>
     </div>       <!-- end Jumbotron div -->
   </div>         <!-- end col-sm-12 -->
   </div>        <!-- end row -->
@@ -110,7 +114,12 @@
           <p>In the community page we will have a forum where you can read and post comments on episodes, characters, maps and more!</p>
           <span class="pull-right"><a href="#">Read More</a></span>
         </div>
-      </div>
+      </div>             <!-- end panel panel-default -->
+    </div>          <!-- end col-sm-6 -->
+    <div class="col-sm-6"></div>
+    <div class="col-sm-6">
+
+      <a href="donate.html" class="btn btn-primary btn-sm btn-block">Donate</a>
     </div>
   </div>        <!-- end row -->
 
@@ -145,13 +154,13 @@
         <h6>Follow Us</h6>
         <ul>
           <li><a href="http://www.facebook.com">Facebook</a></li>
-          <li><a href="twitter.com">Twitter</a></li>
-          <li><a href="google.com">Google+</a></li>
+          <li><a href="https://twitter.com">Twitter</a></li>
+          <li><a href="https://plus.google.com/u/0/">Google+</a></li>
 
         </ul>
       </div>
       <div class="col-sm-2">
-        <h6>Coded By Lukas Jones</h6>
+        <h6>Work by Jamie Bianchi and Lukas Jones</h6>
       </div>
     </div>  <!-- end row  -->
   </div>

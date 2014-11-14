@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>The Name of our Show</title>
+  <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+  <link href="css/umi.css" type="text/css" rel="stylesheet">
+</head>
+
+
+<body>
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="navbar-header">
+          <a href="home.html" class="navbar-brand">UmiRaisu</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-nav-bar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="collapse-nav-bar">
+          <ul class="nav navbar-nav" role="tablist">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="episodes.html">Episodes</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="community.html">Community</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lore<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="characters.html">Characters</a></li>
+                  <li><a href="history.html">History</a></li>
+                  <li><a href="map.html">Map</a></li>
+                </ul>
+              </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign in<b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu spaced">
+                  <form class="navbar-form" role="form">
+                    
+                    <li>
+                      <div class="form-group">
+                        <input type="text" placeholder="UserName" name="username" id="user">
+                      </div>
+                    </li>
+                  
+                    <li>
+                      <input type="password" placeholder="password" name="password" id="pass">
+                    </li>
+                    <li>
+                      <button type="submit" class="btn btn-primary btn-sm btn-block">Sign In</button>
+                    </li>
+                    <li class="small">
+                      <a href="signup.html">Don't have an account?<br>Sign Up</a>
+                    </li>
+                  </form>
+                </ul>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>      <!-- end row -->
+  </div>     <!-- end container -->
+</nav>
+
+
+<!-- ################## Sign Up form ##################-->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>Sign Up</h1>
+      <hr>
+    </div>    <!-- end col-sm-12 -->
+  </div>    <!-- end row -->
+  <div class="row">
+      <form role="form" class="signup" method="post" action="#">
+        <div class="row">
+        <div class="col-sm-2"></div> 
+          <div class="col-sm-8">
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input type="text" class="form-control" id="first-name" placeholder="First Name">
+            </div>
+          </div>       <!-- end col-sm-6 -->
+      </div>     <!-- end row -->
+      <div class="row">
+        <div class="col-sm-2"></div> 
+          <div class="col-sm-8">
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+            </div>
+          </div>       <!-- end col-sm-6 -->
+        </div>     <!-- end row -->
+      <div class="row"> 
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+          </div>
+        </div>       <!-- end col-sm-6 -->
+      </div>  <!-- end row -->
+      <div class="row">
+        <div class="col-sm-2"></div> 
+        <div class="col-sm-8">
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+        </div>       <!-- end col-sm-6 -->
+      </div>     <!-- end row -->
+      <div class="row">
+        <div class="col-sm-2"></div> 
+        <div class="col-sm-8">
+          <div class="form-group">
+            <label for="confirmPass">Confirm Password</label>
+            <input type="password" class="form-control" id="confirmPass" placeholder="Confirm Password">
+          </div>
+        </div>       <!-- end col-sm-6 -->
+      </div>     <!-- end row -->
+      <br/>
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Want email updates?
+            </label>
+          </div>    <!-- end checkbox -->
+        </div>   <!-- end col-sm-2 -->
+        <div class="col-sm-4">
+          <button type="submit" class="btn btn-default btn-sm btn-block">Submit</button>
+        </div>    <!-- end col-sm-5 -->
+      </div>   <!-- end row -->
+        
+        
+      </form>
+
+    
+  
+</div>
+
+
+</body>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</html>
